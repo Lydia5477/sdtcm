@@ -1,0 +1,16 @@
+{
+    "input_size": 581,
+    "output_size": 3,
+    "latent_size": 32,
+    "batch_size": 2,
+    "learning_rate": 0.0001,
+    "epoch": 128,
+    "min_loss": 0.01,
+    "data_folder": "./syncdiff/data",
+    "symptoms": [
+        "biaoli", "hanre", "xushi"
+    ],
+    "stop_if_no_improvemnet": 5,
+    "cross_validation_fold": 10,
+    "saved_folder": "metadata"
+}
